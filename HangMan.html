@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./HangMan.css"/>
+  </head>
+  
+  <body>
+    <div class="prntDiv">
+      <div class="Box1">
+        <div style="border-bottom: 2px solid; height: 253px">
+          <div class="canvas">
+            <div class="rope"></div>
+            <div class="head"></div>
+            <div class="hands"></div>
+            <div class="legs"></div>
+          </div>
+        </div>
+        <div class="heading">HANGMAN GAME</div>
+      </div>
+      <div class="Box2">
+        <div class="Box2_child">
+          <div class="AnswerBox">
+            <!-- Word Box -->
+          </div>
+          <div class="Questions">
+            <!-- Questions -->
+          </div>
+          <div class="guess">
+            Wrong Guesses :- <span class="keepcount">0</span> of
+            <span class="totalcount">4</span>
+          </div>
+          <div class="alphabets"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./HangMan.js"> </script>
+</html>
